@@ -1,7 +1,19 @@
-
+.image {
+    display: flex;
+}
 
 .donut { 
     position: absolute;
+}
+
+.donut::after {
+    content: "";
+    position: absolute;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
 }
 
 .heading {
@@ -46,7 +58,7 @@
     background-color: white;
     position: absolute;
     z-index: 999;
-    width: 100vw;
+    width: 150vw;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1440px) {
@@ -76,16 +88,29 @@
     }
     
     .donut { 
-        border: calc(150/1440*100vw) solid #f00;
-        border-radius: 50%;
-        height: calc(500/1440*100vw);
-        width: calc(500/1440*100vw);
-        top: calc(500/1440*100vw);
-        left: calc(1100/1440*100vw);
+        position: absolute;
+        width: calc(212/1440*100vw);
+        height: calc(100/1440*100vw);
     }
-
-    .white {
-        height: calc(500/1440*100vw);
+    
+    .donut::after {
+        content: "";
+        position: absolute;
+        top: calc(-340/1440*100vw);
+        left: calc(1200/1440*100vw);
+        width: calc(500/1440*100vw);
+        height: calc(500/1440*100vw);    
+        border-left: calc(150/1440*100vw) solid white;
+        border-right: calc(150/1440*100vw) solid white;
+        border-top: calc(150/1440*100vw) solid red;
+        border-bottom: calc(150/1440*100vw) solid white;
+        -moz-border-radius: calc(500/1440*100vw) calc(500/1440*100vw) calc(500/1440*100vw) calc(500/1440*100vw);
+             border-radius: calc(500/1440*100vw) calc(500/1440*100vw) calc(500/1440*100vw) calc(500/1440*100vw);
+        -webkit-transform: rotate(-45deg);
+           -moz-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+             -o-transform: rotate(-45deg);
+                transform: rotate(-45deg);
     }
 
 }
@@ -118,16 +143,29 @@
     }
     
     .donut { 
-        border: calc(150/1440*100vw) solid #f00;
-        border-radius: 50%;
-        height: calc(500/1440*100vw);
-        width: calc(500/1440*100vw);
-        top: calc(500/1440*100vw);
-        left: calc(1100/1440*100vw);
+        position: absolute;
+        width: calc(212/1440*100vw);
+        height: calc(100/1440*100vw);
     }
-
-    .white {
-        height: calc(500/1440*100vw);
+    
+    .donut::after {
+        content: "";
+        position: absolute;
+        top: calc(-340/1440*100vw);
+        left: calc(1200/1440*100vw);
+        width: calc(500/1440*100vw);
+        height: calc(500/1440*100vw);    
+        border-left: calc(150/1440*100vw) solid white;
+        border-right: calc(150/1440*100vw) solid white;
+        border-top: calc(150/1440*100vw) solid red;
+        border-bottom: calc(150/1440*100vw) solid white;
+        -moz-border-radius: calc(500/1440*100vw) calc(500/1440*100vw) calc(500/1440*100vw) calc(500/1440*100vw);
+             border-radius: calc(500/1440*100vw) calc(500/1440*100vw) calc(500/1440*100vw) calc(500/1440*100vw);
+        -webkit-transform: rotate(-45deg);
+           -moz-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+             -o-transform: rotate(-45deg);
+                transform: rotate(-45deg);
     }
 
 }
