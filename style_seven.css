@@ -1,0 +1,120 @@
+.image {
+    width: 200px;
+    height: 200px; 
+}
+
+.donut { 
+    border: 150px solid #f00;
+    border-radius: 500px;
+    height: 500px;
+    width: 500px;
+    position: fixed;
+    top: 390px;
+    left: 1150px;
+}
+
+.heading {
+    margin: 0;
+    color: #ccc;
+}
+
+.container-zero {
+    font-family: Roboto;
+    font-weight: 800;
+    background: white;
+    width: 100vw;
+    display: flex;
+    align-content: center;
+    justify-content: start;
+}
+
+.container-one {
+    display: flex;
+    align-content: center;
+    justify-content: start;
+    font-family: Roboto;
+    font-weight: 800;
+}
+
+.container-two {
+    font-family: Roboto;
+}
+
+.line-one {
+    display: flex;
+    width: 100vw;
+}
+
+.text-two {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+
+    .container-zero {
+        font-size: calc(70/1440*100vw);
+        height: calc(200/1440*100vw);
+        margin-left: calc(100/1440*100vw);
+    }
+
+    .container-two {
+        font-size: calc(25/1440*100vw);
+        margin-left: calc(100/1440*100vw);
+        margin-bottom: calc(21/1440*100vw);
+    }
+
+    .line-one {
+        margin-left: calc(100/1440*100vw);
+        font-size: calc(21/1440*100vw);
+    }
+
+    .image {
+        width: calc(200/1440*100vw);
+        height: calc(200/1440*100vw); 
+    }
+    
+    .donut { 
+        border-radius: calc(500/1440*100vw);
+        height: calc(500/1440*100vw);
+        width: calc(500/1440*100vw);
+        top: calc(390/1440*100vw);
+        left: calc(1150/1440*100vw);
+    }
+
+}
+
+
+@media screen and (min-width: 1440px) {
+
+    .container-zero {
+        font-size: calc(70/1440*100vw);
+        height: calc(200/1440*100vw);
+        margin-left: calc(100/1440*100vw);
+    }
+
+    .container-two {
+        font-size: calc(25/1440*100vw);
+        margin-left: calc(100/1440*100vw);
+        margin-bottom: calc(21/1440*100vw);
+    }
+
+    .line-one {
+        margin-left: calc(100/1440*100vw);
+        font-size: calc(21/1440*100vw);
+    }
+
+    .image {
+        width: calc(200/1440*100vw);
+        height: calc(200/1440*100vw); 
+    }
+    
+    .donut { 
+        border-radius: calc(500/1440*100vw);
+        height: calc(500/1440*100vw);
+        width: calc(500/1440*100vw);
+        top: calc(390/1440*100vw);
+        left: calc(1150/1440*100vw);
+    }
+
+}

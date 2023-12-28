@@ -1,0 +1,252 @@
+
+
+.container {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.line-one {
+    display: flex;
+    width: 100vw;
+}
+
+.line-two {
+    display: flex;
+    width: 100vw;
+}
+
+.line-three {
+    display: flex;
+    width: 100vw;
+    background-color: #ccc;
+}
+
+.heading {
+    margin: 0;
+    color: #ccc;
+}
+
+.container-zero {
+    font-family: Roboto;
+    font-weight: 800;
+    background: white;
+    width: 100vw;
+    display: flex;
+    align-content: center;
+    justify-content: start;
+}
+
+.container-one {
+    display: flex;
+    align-content: center;
+    justify-content: start;
+
+}
+
+.container-two {
+    display: flex;
+    align-content: center;
+    justify-content: start;
+}
+
+.container-three {
+    display: flex;
+    align-content: center;
+    justify-content: start;
+}
+
+.container-five {
+    background: #ccc;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-six {
+    background: #ccc;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.font-arial {
+    font-family: arial;
+    font-style: italic;
+}
+
+.font-arial-right {
+    font-family: arial;
+    font-style: italic;
+}
+
+.font-roboto-big {
+    font-family: Roboto;
+    font-weight: 800;
+}
+
+.font-roboto-small {
+    font-family: Roboto;
+    font-weight: 800;
+    display: flex;
+    align-items: end;
+}
+
+.font-roboto-small-five {
+    font-family: Roboto;
+    font-weight: 800;
+    display: flex;
+    align-content: center;
+    justify-content: start;
+}
+
+.font-roboto-verybig {
+    font-family: Roboto;
+    font-weight: 800;
+    display: flex;
+    align-content: center;
+    justify-content: start;
+}
+
+.font-five {
+    font-family: Arial;
+    font-weight: bold;
+    font-style: italic;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+
+    .line-one {
+        margin-left: calc(100/1440*100vw);
+    }
+
+    .line-two {
+        margin-left: calc(100/1440*100vw);
+    }
+
+    .line-three {
+        margin-top: calc(220/1440*100vw);
+        height: calc(300/1440*100vw);
+    }
+
+    .container-two {
+        margin-left: calc(200/1440*100vw);
+    }
+
+    .container-zero {
+        font-size: calc(80/1440*100vw);
+        height: calc(500/1440*100vw);
+        margin-left: calc(100/1440*100vw);
+    }
+
+    .container-six {
+        margin-left: calc(220/1440*100vw);
+    }
+
+    .container-five {
+        margin-left: calc(220/1440*100vw);
+        margin-left: calc(100/1440*100vw);
+    }
+
+    .font-arial {
+        font-size: calc(25/1440*100vw);
+    }
+
+    .font-arial-right {
+        font-size: calc(25/1440*100vw);
+        margin-left: calc(520/1440*100vw);
+    }
+
+    .font-roboto-big {
+        font-size: calc(80/1440*100vw);
+    }
+
+    .font-roboto-small {
+        font-size: calc(30/1440*100vw);
+    }
+
+    .font-roboto-small-five {
+        font-size: calc(30/1440*100vw);
+        margin-top: calc(70/1440*100vw);
+    }
+
+    .font-roboto-verybig {
+        font-size: calc(110/1440*100vw);
+    }
+
+    .font-five {
+        font-size: calc(40/1440*100vw);
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    .line-one {
+        margin-left: calc(100/1440*100vw);
+    }
+
+    .line-two {
+        margin-left: calc(100/1440*100vw);
+    }
+
+    .line-three {
+        margin-top: calc(220/1440*100vw);
+        height: calc(300/1440*100vw);
+    }
+
+    .container-two {
+        margin-left: calc(200/1440*100vw);
+    }
+
+    .container-zero {
+        font-size: calc(80/1440*100vw);
+        height: calc(500/1440*100vw);
+        margin-left: calc(100/1440*100vw);
+    }
+
+    .container-five {
+        margin-left: calc(220/1440*100vw);
+        margin-left: calc(100/1440*100vw);
+    }
+
+    .container-six {
+        margin-left: calc(220/1440*100vw);
+    }
+
+    .font-arial {
+        font-size: calc(25/1440*100vw);
+    }
+
+    .font-arial-right {
+        font-size: calc(25/1440*100vw);
+        margin-left: calc(520/1440*100vw);
+    }
+
+    .font-roboto-big {
+        font-size: calc(80/1440*100vw);
+    }
+
+    .font-roboto-small {
+        font-size: calc(30/1440*100vw);
+    }
+
+    .font-roboto-small-five {
+        font-size: calc(30/1440*100vw);
+        margin-top: calc(70/1440*100vw);
+    }
+
+    .font-roboto-verybig {
+        font-size: calc(110/1440*100vw);
+    }
+
+    .font-five {
+        font-size: calc(40/1440*100vw);
+    }
+
+}
