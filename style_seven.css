@@ -1,16 +1,7 @@
-.image {
-    width: 200px;
-    height: 200px; 
-}
+
 
 .donut { 
-    border: 150px solid #f00;
-    border-radius: 500px;
-    height: 500px;
-    width: 500px;
-    position: fixed;
-    top: 390px;
-    left: 1150px;
+    position: absolute;
 }
 
 .heading {
@@ -25,6 +16,7 @@
     width: 100vw;
     display: flex;
     align-content: center;
+    align-items: center;
     justify-content: start;
 }
 
@@ -50,23 +42,32 @@
     flex-direction: column;
 }
 
+.white {
+    background-color: white;
+    position: absolute;
+    z-index: 999;
+    width: 100vw;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1440px) {
 
     .container-zero {
-        font-size: calc(70/1440*100vw);
-        height: calc(200/1440*100vw);
+        font-size: calc(60/1440*100vw);
+        height: calc(250/1440*100vw);
         margin-left: calc(100/1440*100vw);
     }
 
     .container-two {
-        font-size: calc(25/1440*100vw);
+        font-size: calc(27/1440*100vw);
         margin-left: calc(100/1440*100vw);
         margin-bottom: calc(21/1440*100vw);
+        line-height: calc(40/1440*100vw)
     }
 
     .line-one {
         margin-left: calc(100/1440*100vw);
-        font-size: calc(21/1440*100vw);
+        font-size: calc(25/1440*100vw);
+        margin-bottom: calc(180/1440*100vw);
     }
 
     .image {
@@ -75,11 +76,16 @@
     }
     
     .donut { 
-        border-radius: calc(500/1440*100vw);
+        border: calc(150/1440*100vw) solid #f00;
+        border-radius: 50%;
         height: calc(500/1440*100vw);
         width: calc(500/1440*100vw);
-        top: calc(390/1440*100vw);
-        left: calc(1150/1440*100vw);
+        top: calc(500/1440*100vw);
+        left: calc(1100/1440*100vw);
+    }
+
+    .white {
+        height: calc(500/1440*100vw);
     }
 
 }
@@ -88,20 +94,22 @@
 @media screen and (min-width: 1440px) {
 
     .container-zero {
-        font-size: calc(70/1440*100vw);
-        height: calc(200/1440*100vw);
+        font-size: calc(60/1440*100vw);
+        height: calc(250/1440*100vw);
         margin-left: calc(100/1440*100vw);
     }
 
     .container-two {
-        font-size: calc(25/1440*100vw);
+        font-size: calc(27/1440*100vw);
         margin-left: calc(100/1440*100vw);
         margin-bottom: calc(21/1440*100vw);
+        line-height: calc(40/1440*100vw)
     }
 
     .line-one {
         margin-left: calc(100/1440*100vw);
-        font-size: calc(21/1440*100vw);
+        font-size: calc(25/1440*100vw);
+        margin-bottom: calc(180/1440*100vw);
     }
 
     .image {
@@ -110,11 +118,16 @@
     }
     
     .donut { 
-        border-radius: calc(500/1440*100vw);
+        border: calc(150/1440*100vw) solid #f00;
+        border-radius: 50%;
         height: calc(500/1440*100vw);
         width: calc(500/1440*100vw);
-        top: calc(390/1440*100vw);
-        left: calc(1150/1440*100vw);
+        top: calc(500/1440*100vw);
+        left: calc(1100/1440*100vw);
+    }
+
+    .white {
+        height: calc(500/1440*100vw);
     }
 
 }

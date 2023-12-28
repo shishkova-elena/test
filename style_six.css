@@ -130,8 +130,8 @@
     }
 
     .line-three {
-        margin-top: calc(220/1440*100vw);
-        height: calc(300/1440*100vw);
+        margin-top: calc(80/1440*100vw);
+        height: calc(240/1440*100vw);
     }
 
     .container-two {
@@ -139,13 +139,9 @@
     }
 
     .container-zero {
-        font-size: calc(80/1440*100vw);
-        height: calc(500/1440*100vw);
+        font-size: calc(50/1440*100vw);
+        height: calc(350/1440*100vw);
         margin-left: calc(100/1440*100vw);
-    }
-
-    .container-six {
-        margin-left: calc(220/1440*100vw);
     }
 
     .container-five {
@@ -153,17 +149,21 @@
         margin-left: calc(100/1440*100vw);
     }
 
+    .container-six {
+        margin-left: calc(220/1440*100vw);
+    }
+
     .font-arial {
-        font-size: calc(25/1440*100vw);
+        font-size: calc(20/1440*100vw);
     }
 
     .font-arial-right {
-        font-size: calc(25/1440*100vw);
-        margin-left: calc(520/1440*100vw);
+        font-size: calc(20/1440*100vw);
+        margin-left: calc(450/1440*100vw);
     }
 
     .font-roboto-big {
-        font-size: calc(80/1440*100vw);
+        font-size: calc(60/1440*100vw);
     }
 
     .font-roboto-small {
@@ -176,7 +176,7 @@
     }
 
     .font-roboto-verybig {
-        font-size: calc(110/1440*100vw);
+        font-size: calc(90/1440*100vw);
     }
 
     .font-five {
@@ -196,8 +196,8 @@
     }
 
     .line-three {
-        margin-top: calc(220/1440*100vw);
-        height: calc(300/1440*100vw);
+        margin-top: calc(80/1440*100vw);
+        height: calc(240/1440*100vw);
     }
 
     .container-two {
@@ -205,8 +205,8 @@
     }
 
     .container-zero {
-        font-size: calc(80/1440*100vw);
-        height: calc(500/1440*100vw);
+        font-size: calc(50/1440*100vw);
+        height: calc(350/1440*100vw);
         margin-left: calc(100/1440*100vw);
     }
 
@@ -220,16 +220,16 @@
     }
 
     .font-arial {
-        font-size: calc(25/1440*100vw);
+        font-size: calc(20/1440*100vw);
     }
 
     .font-arial-right {
-        font-size: calc(25/1440*100vw);
-        margin-left: calc(520/1440*100vw);
+        font-size: calc(20/1440*100vw);
+        margin-left: calc(450/1440*100vw);
     }
 
     .font-roboto-big {
-        font-size: calc(80/1440*100vw);
+        font-size: calc(60/1440*100vw);
     }
 
     .font-roboto-small {
@@ -242,7 +242,7 @@
     }
 
     .font-roboto-verybig {
-        font-size: calc(110/1440*100vw);
+        font-size: calc(90/1440*100vw);
     }
 
     .font-five {

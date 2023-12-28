@@ -6,6 +6,7 @@
     background: white;
     display: flex;
     align-content: center;
+    align-items: center;
     justify-content: start;
 }
 
@@ -73,7 +74,7 @@
 
     .container-zero {
         font-size: calc(70/1440*100vw);
-        height: calc(200/1440*100vw);
+        height: calc(170/1440*100vw);
         margin-left: calc(100/1440*100vw);
     }
 
@@ -119,9 +120,10 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1440px) {
+
     .container-zero {
         font-size: calc(70/1440*100vw);
-        height: calc(200/1440*100vw);
+        height: calc(170/1440*100vw);
         margin-left: calc(100/1440*100vw);
     }
 
